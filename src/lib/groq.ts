@@ -138,7 +138,8 @@ export async function fetchGroqReply(message: string, userName: string = "a user
                     message: cleanMessage,
                     userName,
                     history: safeHistory,
-                    isJailbreakAttempt
+                    isJailbreakAttempt,
+                    searchWeb: true
                 }
             });
 
